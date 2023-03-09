@@ -1,0 +1,178 @@
+body {
+    background-color: #F1EEFF;
+}
+
+footer {
+    background-color: #3C2F71;
+    padding: 1.3em;
+    padding-top: 2em;
+    margin-top: 5em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+/******************** NAVBAR ********************/
+
+.navbar {
+    box-shadow: 0px 10px 40px 7px rgba(60,47,113,0.2);
+}
+
+.logo {
+    padding: .5em;
+}
+
+.navbar-toggler {
+    border-color: #3c2f7100;
+    background-color: #dfd7ff00;
+    border-radius: 10px;
+    margin: .5em;
+    transition: all .3s ease-in-out;
+}
+
+.navbar-toggler:hover {
+    border-color: #3c2f7100;
+    background-color: #DFD7FF;
+}
+
+li a.nav-link .active {
+    color: #3C2F71;
+}
+
+li a.nav-link {
+    color: #3c2f7180;
+}
+
+li a.nav-link:hover {
+    color: #3C2F71;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler-icon {
+    color: #3C2F71;
+}
+
+/************************* ILLUSTRATION **************************/
+
+.illu img {
+    width: 100%;
+    margin-top: 5em;
+}
+
+h1 {
+    line-height: 1.1em;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #3C2F71;
+    padding: 1em;
+    padding-top: .8em;
+}
+
+/************************* CARD *************************/
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0px 10px 40px 7px rgba(60,47,113,0.2);
+    border: none;
+    margin-top: 2em;
+    margin: 1em;
+}
+
+.card-img-top {
+    border-radius: 15px 15px 0 0;
+}
+
+.card-title {
+    font-weight: bold;
+    color: #3C2F71;
+}
+
+.card-text {
+    color: #3C2F71;
+}
+
+.btn.btn-primary {
+    border-radius: 30px;
+    color: #61C0CD;
+    border-color: #61C0CD;
+    background-color: #DEF9FD;
+}
+
+.btn.btn-primary-hover {
+    background-color: #61C0CD;
+}
+
+a.btn.btn-primary {
+    padding-bottom: .4em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+/************************* PARAGRAPHE *************************/
+
+.Para {
+    margin: 2em;
+}
+
+.Para h2 {
+    margin-top: 1em;
+    color: #3C2F71;
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 1.1em;
+}
+
+.Para h3 {
+    margin-top: 2em;
+    margin-bottom: 3em;
+    color: #3C2F71;
+    font-size: 1em;
+    font-weight: medium;
+}
+
+a.btn-footer {
+    background-color: #DFD7FF;
+    border: 1px solid #3C2F71;
+    border-radius: 30px;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    text-decoration: none;
+    color: #3C2F71;
+}
+
+/************************ FOOTER *************************/
+
+.social i {
+    padding-right: .5em;
+    font-size: 1.3em;
+    color: #DFD7FF;
+}
+
+.lien {
+    padding-top: 1.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.lien a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.texte-fin h2 {
+    padding-top: 2em;
+    color: #AFA3DE;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.texte-fin h3 {
+    padding-top: .7em;
+    color: #AFA3DE;
+    font-size: .8em;
+}
+
